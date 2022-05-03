@@ -40,7 +40,34 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
+
+#### Login page
+![Product Name Screen Shot][product-screenshot1]
+
+#### Signup page
+![Product Name Screen Shot][product-screenshot2]
+
+#### Home page
+![Product Name Screen Shot][product-screenshot4]
+
+#### Individual TV Show page with continue watching
+![Product Name Screen Shot][product-screenshot5]
+
+#### Search Results
+![Product Name Screen Shot][product-screenshot6]
+
+#### Profile Page with Subscription Invoice
+![Product Name Screen Shot][product-screenshot7]
+
+#### Subscription Page
+![Product Name Screen Shot][product-screenshot8]
+
+#### Recommendations
+![Product Name Screen Shot][product-screenshot9]
+
+#### Watching a movie
+![Product Name Screen Shot][product-screenshot10]
 
 **KJ Somaiya College of Engineering SY BTECH SEM-IV Web Programming Lab**
 
@@ -85,3 +112,8 @@ Project Link: [https://github.com/Warrior2612/Media-Recommendation-System](https
 [product-screenshot3]: images/screenshot3.png
 [product-screenshot4]: images/screenshot4.png
 [product-screenshot5]: images/screenshot5.png
+[product-screenshot6]: images/screenshot6.png
+[product-screenshot7]: images/screenshot7.png
+[product-screenshot8]: images/screenshot8.png
+[product-screenshot9]: images/screenshot9.png
+[product-screenshot10]: images/screenshot10.png
