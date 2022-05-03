@@ -9,16 +9,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/Warrior2612/Media-Streaming-Website">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Media Streaming Website</h3>
 
   <p align="center">
-    Our recommendation system takes user's media consumption data such as previously watched
-movies, tv shows, etc, and their likes and dislikes and based on this data it recommends similar
-media that the user may like. It then allows the user to rate the recommendations and
-based on the rating, tries to improve the recommendations further.
+    A media streaming website that allows the users to watch several different movies and tv shows that are a part of our database. Users have the ability to create accounts, login, subscribe to our streaming service, stream media, save remaining progress of movies, etc.
     <br />
     <br />
   </p>
@@ -83,3 +80,8 @@ Project Link: [https://github.com/Warrior2612/Media-Recommendation-System](https
 [license-shield]: https://img.shields.io/github/license/Warrior2612/Media-Streaming-Website?label=license&style=for-the-badge
 [license-url]: https://github.com/Warrior2612/Media-Streaming-Website/blob/main/LICENSE.txt
 [product-screenshot]: images/screenshot.png
+[product-screenshot1]: images/screenshot1.png
+[product-screenshot2]: images/screenshot2.png
+[product-screenshot3]: images/screenshot3.png
+[product-screenshot4]: images/screenshot4.png
+[product-screenshot5]: images/screenshot5.png
