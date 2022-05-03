@@ -40,7 +40,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-#### Home page
 ![Product Name Screen Shot][product-screenshot]
 
 #### Login page
