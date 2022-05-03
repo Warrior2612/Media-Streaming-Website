@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2022 at 08:55 PM
+-- Generation Time: May 03, 2022 at 10:06 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.26
 
@@ -154,7 +154,7 @@ INSERT INTO `users` (`id`, `firstName`, `lastName`, `username`, `email`, `passwo
 (1, 'Pratham', 'Mehta', 'pratham-mehta', 'pratham@gmail.com', 'b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86', '2020-09-29 22:00:32', 1, NULL, 0),
 (4, 'Pratham', 'Mehta', 'abcd', 'abc@abc.com', '878ae65a92e86cac011a570d4c30a7eaec442b85ce8eca0c2952b5e3cc0628c2e79d889ad4d5c7c626986d452dd86374b6ffaa7cd8b67665bef2289a5c70b0a1', '2022-01-20 16:27:18', 0, NULL, 0),
 (5, '12345', '12345', '12345', '12345@12345.com', '3627909a29c31381a071ec27f7c9ca97726182aed29a7ddd2e54353322cfb30abb9e3a6df2ac2c20fe23436311d678564d0c8d305930575f60e2d3d048184d79', '2022-01-27 14:39:34', 0, NULL, 0),
-(6, 'Sdsdsdsd', 'Dsdsdsdsds', 'abcde', 'abcde@abcd.com', 'd9e6762dd1c8eaf6d61b3c6192fc408d4d6d5f1176d0c29169bc24e71c3f274ad27fcd5811b313d681f7e55ec02d73d499c95455b6b5bb503acf574fba8ffe85', '2022-04-10 17:11:47', 1, '2022-04-27', 1);
+(6, 'Sdsdsdsd', 'Dsdsdsdsds', 'abcde', 'abcde@abcd.com', 'd9e6762dd1c8eaf6d61b3c6192fc408d4d6d5f1176d0c29169bc24e71c3f274ad27fcd5811b313d681f7e55ec02d73d499c95455b6b5bb503acf574fba8ffe85', '2022-04-10 17:11:47', 1, '2022-04-27', 2);
 
 -- --------------------------------------------------------
 
@@ -191,7 +191,8 @@ INSERT INTO `videoprogress` (`id`, `username`, `videoId`, `progress`, `finished`
 (16, 'abcde', 292, 0, 0, '2022-04-26 09:00:24'),
 (17, 'abcde', 1934, 1131, 0, '2022-04-26 09:01:27'),
 (18, 'abcde', 585, 0, 0, '2022-04-26 09:02:55'),
-(19, 'abcde', 702, 3, 0, '2022-04-26 09:07:25');
+(19, 'abcde', 702, 3, 0, '2022-04-26 09:07:25'),
+(20, 'abcde', 161, 19, 0, '2022-04-27 09:03:31');
 
 -- --------------------------------------------------------
 
@@ -363,7 +364,7 @@ INSERT INTO `videos` (`id`, `title`, `description`, `filePath`, `isMovie`, `uplo
 (158, 'Seventh Fire', 'Dictum at luctus tempor convallis, ipsum mollis dapibus eu litora odio accumsan nam, lorem dolor malesuada mattis eleifend tortor et eu inceptos ferme', 'entities/videos/3.mp4', 0, '2019-10-12 22:07:53', '2017-06-07', 0, '31:30', 4, 10, 3),
 (159, 'Silver Twilight', 'Dictum finibus facilisis ligula phasellus molestie ex primis tempus sagittis nostra potenti bibendum dignissim morbi. Nunc posuere vivamus, ipsum sit ', 'entities/videos/3.mp4', 0, '2019-10-12 22:07:53', '2009-04-04', 0, '32:44', 4, 11, 3),
 (160, 'The Licking Flowers', 'Nulla id faucibus orci morbi, at finibus scelerisque aliquam felis libero nisl. Condimentum lectus blandit. Amet a tortor primis pretium arcu quam dic', 'entities/videos/2.mp4', 0, '2019-10-12 22:07:53', '2016-08-09', 0, '34:37', 4, 12, 3),
-(161, 'Toy Story', 'Non lacus maecenas leo quisque ultrices platea enim accumsan. Ipsum luctus ultrices cursus hendrerit tempus hac. Nec augue sollicitudin tristique, ves', 'entities/videos/3.mp4', 1, '2019-10-12 22:07:53', '2000-08-14', 0, '25:51', 0, 0, 4),
+(161, 'Toy Story', 'Non lacus maecenas leo quisque ultrices platea enim accumsan. Ipsum luctus ultrices cursus hendrerit tempus hac. Nec augue sollicitudin tristique, ves', 'entities/videos/3.mp4', 1, '2019-10-12 22:07:53', '2000-08-14', 1, '25:51', 0, 0, 4),
 (196, 'Birch of Trainer', 'Lobortis ultrices varius et tempus sagittis conubia duis. Dolor nibh ligula vehicula. Lacinia quis proin eu taciti litora netus. Malesuada ut quis pri', 'entities/videos/2.mp4', 0, '2019-10-12 22:07:53', '2002-06-29', 0, '31:30', 1, 1, 45),
 (197, 'The Tale\'s Door', 'Mi metus mauris suspendisse ex massa proin hendrerit condimentum pellentesque sociosqu litora nam imperdiet morbi. Adipiscing mi at volutpat aliquam u', 'entities/videos/6.mp4', 0, '2019-10-12 22:07:53', '2017-04-05', 0, '49:29', 1, 2, 45),
 (198, 'Shard of Dragon', 'Nulla ac massa vivamus sodales. Sit in erat massa per. Nulla nisi ex varius cubilia porttitor quam condimentum nostra eros habitant. Vitae vestibulum ', 'entities/videos/1.mp4', 0, '2019-10-12 22:07:53', '2005-08-25', 0, '32:28', 1, 3, 45),
@@ -1707,15 +1708,15 @@ INSERT INTO `videos` (`id`, `title`, `description`, `filePath`, `isMovie`, `uplo
 (1931, 'Voyager in the Lord', 'Maecenas ac quisque molestie augue maximus taciti turpis, amet mi mattis nibh tempus class inceptos blandit ullamcorper. Metus semper est faucibus ant', 'entities/videos/5.mp4', 0, '2019-10-12 22:07:53', '2015-12-24', 0, '34:12', 2, 8, 99),
 (1932, 'The Women of the Roses', 'Placerat et dictumst lectus libero himenaeos potenti. Cubilia libero risus. Etiam justo lacinia felis primis eget efficitur ad dignissim aenean. Suspe', 'entities/videos/1.mp4', 0, '2019-10-12 22:07:53', '2006-07-26', 0, '24:31', 2, 9, 99),
 (1933, 'Name of Elves', 'Interdum in lacus habitasse. Finibus vitae pulvinar felis sagittis pellentesque elementum vehicula tristique nisl, amet eleifend tempor proin dapibus ', 'entities/videos/4.mp4', 1, '2019-10-12 22:07:53', '2016-08-04', 0, '44:11', 0, 0, 65),
-(1934, 'Chapter One: The Vanishing of Will Byers', 'On his way home from a friend\'s house, young Will sees something terrifying. Nearby, a sinister secret lurks in the depths of a government lab.', 'entities\\Complete Series\\Stranger Things\\Chapter One The Vanishing of Will Byers.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 27, '47:33', 1, 1, 100),
-(1935, 'Chapter Two: The Wierdo on Maple Street', 'Lucas, Mike and Dustin try to talk to the girl they found in the woods. Hopper questions an anxious Joyce about an unsettling phone call.', 'entities\\Complete Series\\Stranger Things\\Chapter Two The Wierdo on Maple Street.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 1, '54:24', 1, 2, 100),
-(1936, 'Chapter Three: Holly, Jolly', 'An increasingly concerned Nancy looks for Barb and finds out what Jonathan\'s been up to. Joyce is convinced Will is trying to talk to her.', 'entities\\Complete Series\\Stranger Things\\Chapter Three Holly Jolly.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 1, '50:51', 1, 3, 100);
+(1934, 'Chapter One: The Vanishing of Will Byers', 'On his way home from a friend\'s house, young Will sees something terrifying. Nearby, a sinister secret lurks in the depths of a government lab.', 'entities\\videos\\1.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 27, '47:33', 1, 1, 100),
+(1935, 'Chapter Two: The Wierdo on Maple Street', 'Lucas, Mike and Dustin try to talk to the girl they found in the woods. Hopper questions an anxious Joyce about an unsettling phone call.', 'entities\\videos\\2.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 1, '54:24', 1, 2, 100),
+(1936, 'Chapter Three: Holly, Jolly', 'An increasingly concerned Nancy looks for Barb and finds out what Jonathan\'s been up to. Joyce is convinced Will is trying to talk to her.', 'entities\\videos\\3.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 1, '50:51', 1, 3, 100);
 INSERT INTO `videos` (`id`, `title`, `description`, `filePath`, `isMovie`, `uploadDate`, `releaseDate`, `views`, `duration`, `season`, `episode`, `entityId`) VALUES
-(1937, 'Chapter Four: The Body', 'Refusing to believe Will is dead, Joyce tries to connect with her son. The boys give Eleven a makeover. Nancy and Jonathan form an unlikely alliance.', 'entities\\Complete Series\\Stranger Things\\Chapter Four The Body.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 2, '49:27', 1, 4, 100),
-(1938, 'Chapter Five: The Flea and The Acrobat', 'Hopper breaks into the lab while Nancy and Jonathan confront the force that took Will. The boys ask Mr. Clarke how to travel to another dimension.', 'entities\\Complete Series\\Stranger Things\\Chapter Five The Flea and The Acrobat.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 1, '52:02', 1, 5, 100),
-(1939, 'Chapter Six: The Monster', 'A frantic Jonathan looks for Nancy in the darkness, but Steve\'s looking for her, too. Hopper and Joyce uncover the truth about the lab\'s experiments.', 'entities\\Complete Series\\Stranger Things\\Chapter Six The Monster.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 0, '45:47', 1, 6, 100),
-(1940, 'Chapter Seven: The Bathtub', 'Eleven struggles to reach Will, while Lucas warns that \"the bad men are coming.\" Nancy and Jonathan show the police what Jonathan caught on camera.', 'entities\\Complete Series\\Stranger Things\\Chapter Seven The Bathtub.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 0, '41:05', 1, 7, 100),
-(1941, 'Chapter Eight: The Upside Down', 'Dr. Brenner holds Hopper and Joyce for questioning while the boys wait with Eleven in the gym. Back at Will\'s, Nancy and Jonathan prepare for battle.', 'entities\\Complete Series\\Stranger Things\\Chapter Eight The Upside Down.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 0, '53:48', 1, 8, 100),
+(1937, 'Chapter Four: The Body', 'Refusing to believe Will is dead, Joyce tries to connect with her son. The boys give Eleven a makeover. Nancy and Jonathan form an unlikely alliance.', 'entities\\videos\\4.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 2, '49:27', 1, 4, 100),
+(1938, 'Chapter Five: The Flea and The Acrobat', 'Hopper breaks into the lab while Nancy and Jonathan confront the force that took Will. The boys ask Mr. Clarke how to travel to another dimension.', 'entities\\videos\\1.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 1, '52:02', 1, 5, 100),
+(1939, 'Chapter Six: The Monster', 'A frantic Jonathan looks for Nancy in the darkness, but Steve\'s looking for her, too. Hopper and Joyce uncover the truth about the lab\'s experiments.', 'entities\\videos\\2.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 0, '45:47', 1, 6, 100),
+(1940, 'Chapter Seven: The Bathtub', 'Eleven struggles to reach Will, while Lucas warns that \"the bad men are coming.\" Nancy and Jonathan show the police what Jonathan caught on camera.', 'entities\\videos\\3.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 0, '41:05', 1, 7, 100),
+(1941, 'Chapter Eight: The Upside Down', 'Dr. Brenner holds Hopper and Joyce for questioning while the boys wait with Eleven in the gym. Back at Will\'s, Nancy and Jonathan prepare for battle.', 'entities\\videos\\4.mp4', 0, '2020-10-03 22:56:43', '2016-07-15', 0, '53:48', 1, 8, 100),
 (1942, 'The Batman', 'Batman ventures into Gotham City\'s underworld when a sadistic killer leaves behind a trail of cryptic clues. As the evidence begins to lead closer to home and the scale of the perpetrator\'s plans become clear, he must forge new relationships, unmask the culprit and bring justice to the abuse of power and corruption that has long plagued the metropolis.', 'entities\\previews\\1.mp4', 1, '2022-04-20 00:51:28', '2022-03-04', 16, '2:56:00', 0, 0, 101);
 
 --
@@ -1780,7 +1781,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `videoprogress`
 --
 ALTER TABLE `videoprogress`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `videos`
